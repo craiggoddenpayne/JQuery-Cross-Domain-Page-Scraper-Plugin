@@ -1,4 +1,11 @@
 (function ($) {
+    /*
+    18/01/2013
+    Created By Craig Payne
+    http://craigpayne.info
+    craigpayne1985@googlemail.com
+    Allows cross domain spage scraping, using Yahoo Query Language
+    */
     function pageScraper() { };
     pageScraper.prototype.scrapePage = function (url, callback) {
         ///<param name="url" type="string">Url to get html object from</param>
