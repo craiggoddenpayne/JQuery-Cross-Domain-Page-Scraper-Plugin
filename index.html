@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.0.min.js"></script>
+        <script type="text/javascript" src="pageScraper.js"></script>
+    </head>
+    <body>
+        <script type="text/javascript">
+            $().ready(function() {
+                $().scrapePage("http://www.google.com", function (data) {
+                    document.write(JSON.stringify(data));
+                });
+            });
+        </script>
+    </body>
+</html>
